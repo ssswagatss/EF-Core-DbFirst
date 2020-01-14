@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DbFirstTest.Web.Models
+namespace DbFirstTest.DB.Entities
 {
     [Table("nested_category", Schema = "testdb")]
     public partial class NestedCategory
