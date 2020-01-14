@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFirstTest.Web", "DbFirstTest.Web\DbFirstTest.Web.csproj", "{32FC82D0-8965-4CCE-ACD1-BDEFF15886B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32FC82D0-8965-4CCE-ACD1-BDEFF15886B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FC82D0-8965-4CCE-ACD1-BDEFF15886B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FC82D0-8965-4CCE-ACD1-BDEFF15886B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FC82D0-8965-4CCE-ACD1-BDEFF15886B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77E7F10F-A392-45E3-9853-144F5B27CA8F}
+	EndGlobalSection
+EndGlobal
