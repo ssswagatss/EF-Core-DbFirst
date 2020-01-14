@@ -15,8 +15,6 @@ namespace DbFirstTest.DB.Entities
         {
         }
 
-        public virtual DbSet<Category> Category { get; set; }
-        public virtual DbSet<NestedCategory> NestedCategory { get; set; }
         public virtual DbSet<Post> Post { get; set; }
         public virtual DbSet<User> User { get; set; }
 
@@ -32,16 +30,6 @@ namespace DbFirstTest.DB.Entities
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasAnnotation("ProductVersion", "2.2.6-servicing-10079");
-
-            modelBuilder.Entity<Category>(entity =>
-            {
-                entity.Property(e => e.Name).IsUnicode(false);
-            });
-
-            modelBuilder.Entity<NestedCategory>(entity =>
-            {
-                entity.Property(e => e.Name).IsUnicode(false);
-            });
 
             modelBuilder.Entity<Post>(entity =>
             {
